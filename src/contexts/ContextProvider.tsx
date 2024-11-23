@@ -26,7 +26,7 @@ const WalletContextProvider: FC<{ children: ReactNode }> = ({ children }) => {
 
     const wallets = useMemo(
         () => [
-            new UnsafeBurnerWalletAdapter(),
+           // new UnsafeBurnerWalletAdapter(),
         ],
         [network]
     );
